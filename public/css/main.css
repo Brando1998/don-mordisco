@@ -1,0 +1,76 @@
+/* ==== VARIABLES GLOBALES ==== */
+:root {
+  /* 🎨 Colores */
+  --color-primario: #F97511;
+  --color-secundario: #472813;
+  --color-texto: #333;
+  --color-fondo: #FEFFFA;
+  
+  /* 🖋️ Tipografía */
+  --fuente-principal: 'Staatliches', sans-serif;
+  --tamano-texto: 16px;
+  
+  /* 📏 Espaciado */
+  --espaciado-sm: 8px;
+  --espaciado-md: 16px;
+  --espaciado-lg: 32px;
+
+  /* 📱 Padding Dinámico (cambia con la pantalla) */
+  --padding-global: 5vw;
+}
+
+/* ==== RESET Y ESTILOS GENERALES ==== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fuente-principal);
+  font-size: var(--tamano-texto);
+  color: var(--color-texto);
+  background-color: var(--color-fondo);
+  padding: var(--padding-global);
+}
+
+/* ==== SISTEMA DE COLUMNAS ==== */
+.contenedor {
+  display: grid;
+  gap: var(--espaciado-md);
+}
+
+/* Dos columnas */
+.col-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/* Tres columnas */
+.col-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+/* Responsivo: Cambia a una columna en pantallas pequeñas */
+@media (max-width: 768px) {
+  .col-2, .col-3 {
+      grid-template-columns: 1fr;
+  }
+}
+
+/* ==== BOTONES ==== */
+.button-1 {
+  background-color: white;
+  color: var(--color-primario);
+  font-weight: bold;
+  padding: var(--espaciado-sm) var(--espaciado-lg);
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.button-1:hover {
+  background-color: var(--color-secundario);
+  color: white;
+  transform: scale(1.1);
+}

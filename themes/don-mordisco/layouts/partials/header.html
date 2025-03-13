@@ -1,0 +1,14 @@
+<div class="language-switcher">
+    {{ range .Site.Languages }}
+        {{ if ne .Lang $.Site.Language.Lang }}
+            <a href="{{ $.Site.BaseURL }}{{ .Lang }}" class="btn-language">
+                {{ .LanguageName }} {{ .Lang }}
+            </a>
+        {{ end }}
+    {{ end }}
+</div>
+{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+{{ $JS := resources.Get "js/header.js" | minify | fingerprint }}
+{{ $CSS := resources.Get "css/header.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $CSS.RelPermalink }}" integrity="{{ $CSS.Data.Integrity }}">
+<script src="{{ $JS.RelPermalink }}" integrity="{{ $JS.Data.Integrity }}" defer></script>

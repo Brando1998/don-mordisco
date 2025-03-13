@@ -1,0 +1,73 @@
+baseURL = 'http://localhost:1313'
+languageCode = 'es'
+title = 'Don Mordisco'
+theme = "don-mordisco"
+
+# LANGUAGE
+defaultContentLanguage = "es"
+
+
+[languages]
+  [languages.es]
+    title = 'Don Mordisco' 
+    languageName = "🇨🇴"
+    languageCode = "es"
+    weight = 10
+    [languages.es.taxonomies]
+      category = "categorias"
+      tag = "tags"
+
+    [[languages.es.menu.main]]
+      name = "Inicio"
+      url = "/"
+      weight = 1
+
+    [[languages.es.menu.main]]
+      name = "Blog"
+      url = "/posts/"
+      weight = 2
+
+    [[languages.es.menu.main]]
+      name = "Contacto"
+      url = "/contacto/"
+      weight = 3
+
+    [[languages.es.menu.main]]
+      name = "Etiquetas"
+      url = "/tags/"
+      weight = 4
+
+  [languages.en]
+    title = 'Don Mordisco'
+    languageName = "🇺🇸"
+    languageCode = "en"
+    weight = 20
+    [languages.en.taxonomies]
+      category = "categories"
+      tag = "tags"
+
+    [[languages.en.menu.main]]
+      name = "Home"
+      url = "/"
+      weight = 1
+
+    [[languages.en.menu.main]]
+      name = "Blog"
+      url = "/posts/"
+      weight = 2
+
+    [[languages.en.menu.main]]
+      name = "Contact"
+      url = "/contact/"
+      weight = 3
+
+    [[languages.en.menu.main]]
+      name = "Tags"
+      url = "/tags/"
+      weight = 4
+
+# Habilitar el sitemap en Hugo
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

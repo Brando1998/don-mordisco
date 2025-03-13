@@ -1,0 +1,71 @@
+/* ==== LISTADO DE BLOGS ==== */
+.listado-blogs {
+    padding: var(--espaciado-lg) 0;
+}
+
+.listado-blogs .titulo {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: var(--espaciado-lg);
+    color: var(--color-secundario);
+}
+
+/* CONTENEDOR DE TARJETAS */
+.listado-blogs .contenedor {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: var(--espaciado-md);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 var(--espaciado-md);
+}
+
+/* TARJETAS DE BLOG */
+.listado-blogs .blog-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.3s;
+    display: flex;
+    flex-direction: column;
+}
+
+.listado-blogs .blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* IMAGENES EN LAS TARJETAS */
+.listado-blogs .blog-img {
+    width: auto;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+/* TITULO DEL BLOG */
+.listado-blogs .blog-titulo {
+    color: var(--color-primario);
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: block;
+    margin: var(--espaciado-sm) 0;
+    padding: 0 var(--espaciado-md);
+}
+
+.listado-blogs .blog-titulo:hover {
+    color: var(--color-secundario);
+}
+
+/* RESUMEN DEL BLOG */
+.listado-blogs .blog-resumen {
+    color: var(--color-texto);
+    font-size: 1rem;
+    line-height: 1.4;
+    padding: 0 var(--espaciado-md) var(--espaciado-md);
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+}

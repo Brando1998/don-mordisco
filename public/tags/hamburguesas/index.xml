@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Hamburguesas on Don Mordisco</title>
+    <link>http://localhost:1313/tags/hamburguesas/</link>
+    <description>Recent content in Hamburguesas on Don Mordisco</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Sun, 15 Jan 2023 09:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/hamburguesas/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>La Mejor Experiencia con Hamburguesas</title>
+      <link>http://localhost:1313/es/posts/hamburguesas/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/es/posts/hamburguesas/</guid>
+      <description>&lt;p&gt;Las hamburguesas son una de las comidas rápidas más queridas en todo el mundo. Ya sea que prefieras una clásica con queso, una versión gourmet con salsa de trufa o una alternativa vegetal, hay una hamburguesa para todos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;qué-hace-una-buena-hamburguesa&#34;&gt;¿Qué hace una buena hamburguesa?&lt;/h2&gt;&#xA;&lt;p&gt;Una hamburguesa perfecta tiene una carne jugosa, ingredientes frescos y un pan bien tostado. Algunos de los mejores ingredientes incluyen:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Queso derretido 🧀&lt;/li&gt;&#xA;&lt;li&gt;Tocino crujiente 🥓&lt;/li&gt;&#xA;&lt;li&gt;Cebolla caramelizada 🧅&lt;/li&gt;&#xA;&lt;li&gt;Lechuga y tomate frescos 🥬🍅&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/burger.jpeg&#34; alt=&#34;Hamburguesa deliciosa&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

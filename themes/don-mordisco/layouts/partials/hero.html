@@ -1,0 +1,18 @@
+<section id="hero">
+    {{ with resources.Get "images/logo-white.png" | fingerprint }}
+        <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="Logo">
+    {{ end }}
+
+    <div class="hero-content">
+        <h2>{{ i18n "hero_title" }} 🍔🔥</h2>
+        <p>{{ i18n "hero_subtitle" }}</p>
+        <a href='./es/catalog/' class="button-1">
+            {{ i18n "hero_button_text" }}
+        </a>
+    </div>
+</section>
+
+{{ $CSS := resources.Get "css/hero.css" | minify | fingerprint }}
+{{ $JS := resources.Get "js/hero.js" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $CSS.RelPermalink }}" integrity="{{ $CSS.Data.Integrity }}">
+<script src="{{ $JS.RelPermalink }}" integrity="{{ $JS.Data.Integrity }}" defer></script>

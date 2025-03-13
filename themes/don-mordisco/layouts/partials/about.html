@@ -1,0 +1,19 @@
+<section id="about">
+    <div class="about-container">
+        <div class="about-text">
+            <h2>{{ i18n "about_us" }}</h2>
+            <p>{{ i18n "about_us_description"}} 🍔🔥</p>
+        </div>
+        <div class="about-image">
+            {{ with resources.Get "images/burguer-1.jpeg" | fingerprint }}
+            <img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt='{{ i18n "alt_hamburguer"}}'>
+            {{ end }}
+        </div>
+    </div>
+</section>
+
+
+{{ $CSS := resources.Get "css/about.css" | minify | fingerprint }}
+{{ $JS := resources.Get "js/about.js" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $CSS.RelPermalink }}" integrity="{{ $CSS.Data.Integrity }}">
+<script src="{{ $JS.RelPermalink }}" integrity="{{ $JS.Data.Integrity }}" defer></script>

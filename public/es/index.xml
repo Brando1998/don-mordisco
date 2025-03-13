@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inicio on Don Mordisco</title>
+    <link>http://localhost:1313/es/</link>
+    <description>Recent content in Inicio on Don Mordisco</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 15 Feb 2023 10:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/es/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Salchipapas: La Mejor Comida Callejera</title>
+      <link>http://localhost:1313/es/posts/salchipapas/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/es/posts/salchipapas/</guid>
+      <description>&lt;p&gt;Las salchipapas son un plato callejero muy popular en América Latina, hecho con papas fritas crujientes y salchicha en rodajas, cubiertas con salsas como mayonesa, ketchup y queso.&lt;/p&gt;&#xA;&lt;h2 id=&#34;por-qué-las-salchipapas-son-tan-populares&#34;&gt;¿Por qué las salchipapas son tan populares?&lt;/h2&gt;&#xA;&lt;p&gt;Este plato simple pero delicioso es perfecto para un snack rápido o una comida nocturna. Algunas de las mejores adiciones incluyen:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Queso derretido 🧀&lt;/li&gt;&#xA;&lt;li&gt;Salsa de ajo 🧄&lt;/li&gt;&#xA;&lt;li&gt;Ají picante 🌶️&lt;/li&gt;&#xA;&lt;li&gt;Huevo frito 🍳&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Si aún no has probado las salchipapas, ¡te estás perdiendo una de las mejores experiencias de comida rápida! 🍟🌭&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>La Mejor Experiencia con Hamburguesas</title>
+      <link>http://localhost:1313/es/posts/hamburguesas/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/es/posts/hamburguesas/</guid>
+      <description>&lt;p&gt;Las hamburguesas son una de las comidas rápidas más queridas en todo el mundo. Ya sea que prefieras una clásica con queso, una versión gourmet con salsa de trufa o una alternativa vegetal, hay una hamburguesa para todos.&lt;/p&gt;&#xA;&lt;h2 id=&#34;qué-hace-una-buena-hamburguesa&#34;&gt;¿Qué hace una buena hamburguesa?&lt;/h2&gt;&#xA;&lt;p&gt;Una hamburguesa perfecta tiene una carne jugosa, ingredientes frescos y un pan bien tostado. Algunos de los mejores ingredientes incluyen:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Queso derretido 🧀&lt;/li&gt;&#xA;&lt;li&gt;Tocino crujiente 🥓&lt;/li&gt;&#xA;&lt;li&gt;Cebolla caramelizada 🧅&lt;/li&gt;&#xA;&lt;li&gt;Lechuga y tomate frescos 🥬🍅&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/burger.jpeg&#34; alt=&#34;Hamburguesa deliciosa&#34;&gt;&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

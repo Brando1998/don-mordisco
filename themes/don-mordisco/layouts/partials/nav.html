@@ -1,0 +1,16 @@
+<nav class="categories-nav">
+    <ul>
+        {{ if eq .Lang "en" }}  <!-- Solo en inglés -->
+            {{ range .Site.Taxonomies.categories }}
+                <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+            {{ end }}
+        {{ end }}
+        {{ if eq .Lang "es" }}  <!-- Solo en español -->
+            {{ range .Site.Taxonomies.categorias }}
+                <li><a href="{{ .Page.RelPermalink }}">{{ .Page.Title }}</a></li>
+            {{ end }}
+        {{ end }}
+    </ul>
+</nav>
+{{ $CSS := resources.Get "css/nav.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $CSS.RelPermalink }}" integrity="{{ $CSS.Data.Integrity }}">

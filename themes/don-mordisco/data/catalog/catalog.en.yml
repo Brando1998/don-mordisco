@@ -1,0 +1,29 @@
+menu:
+  - categoria: "Hot Dogs"
+    items:
+      - nombre: "Classic"
+        descripcion: "Bun, American sausage, shredded potatoes, two quail eggs, 1/2 bacon, and 1/2 cheese."
+      - nombre: "Bacon"
+        descripcion: "Bun, American sausage, shredded potatoes, three quail eggs, double bacon, full cheese, grilled onion."
+      - nombre: "Special"
+        descripcion: "Bun, American sausage, shredded potatoes, three quail eggs, bacon, full cheese, grilled onion, shredded beef and chicken."
+
+  - categoria: "Burgers"
+    items:
+      - nombre: "Classic"
+        descripcion: "Handcrafted beef patty, bun, shredded potatoes, grilled onion, 1/2 cheese, 1/2 bacon, tomato, lettuce, pickle sauce."
+      - nombre: "Bacon"
+        descripcion: "Handcrafted beef patty, bun, shredded potatoes, grilled onion, full cheese, triple bacon, tomato, lettuce, pickle sauce."
+      - nombre: "Double Beef"
+        descripcion: "Double handcrafted beef patty, bun, shredded potatoes, grilled onion, full cheese, bacon, tomato, lettuce, pickle sauce."
+      - nombre: "Loaded"
+        descripcion: "Handcrafted beef patty, bun, shredded potatoes, grilled onion, full cheese, bacon, tomato, lettuce, pickle sauce, shredded beef and chicken."
+
+  - categoria: "Fries"
+    items:
+      - nombre: "Classic"
+        descripcion: "French fries, American sausage, two quail eggs."
+      - nombre: "Cheese"
+        descripcion: "French fries, American sausage, two quail eggs, cheese."
+      - nombre: "Special"
+        descripcion: "French fries, American sausage, two quail eggs, cheese, shredded beef and chicken, sweet corn."

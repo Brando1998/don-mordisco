@@ -1,0 +1,21 @@
+{{ define "main" }}
+  <section class="listado-blogs">
+    <h1 class="titulo">{{ .Title }}</h1>
+    <div class="contenedor col-3">
+      {{ range .Pages }}
+        <article class="blog-card">
+          {{ with .Params.image }}
+            <img src="{{ . }}" alt="Imagen de {{ $.Title }}" class="blog-img">
+          {{ end }}
+          <h2><a href="{{ .RelPermalink }}" class="blog-titulo">{{ .LinkTitle }}</a></h2>
+          <p class="blog-resumen">{{ .Summary | plainify | truncate 200 }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+
+{{ $CSS := resources.Get "css/list.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $CSS.RelPermalink }}" integrity="{{ $CSS.Data.Integrity }}">
+{{ end }}
+
+

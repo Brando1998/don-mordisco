@@ -1,0 +1,23 @@
+<section id="catalog">
+    <h2 class="catalog-title">Menú 🍔🌭🍟</h2>
+    {{ $lang := .Site.Language.Lang }}
+    {{ $fileName := printf "catalog.%s" $lang }}
+    {{ $catalog := index .Site.Data.catalog $fileName }}
+    {{ range $catalog.menu }}
+        <div class="catalog-category">
+            <h3>{{ .categoria }}</h3>
+            <ul>
+                {{ range .items }}
+                <li>
+                    <strong>{{ .nombre }}</strong> - ${{ .precio }}
+                    <p>{{ .descripcion }}</p>
+                    <button class="button-1" onclick="addToCart('{{ .nombre }}', {{ .precio }})">Añadir al carrito 🛒</button>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    {{ end }}
+</section>
+
+{{ $CSS := resources.Get "css/catalog.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $CSS.RelPermalink }}" integrity="{{ $CSS.Data.Integrity }}">

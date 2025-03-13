@@ -1,0 +1,39 @@
+menu:
+  - categoria: "Perros calientes"
+    items:
+      - nombre: "Clásico"
+        descripcion: "Pan, salchicha americana, papa ripio, dos huevos de codorniz, 1/2 tocineta y 1/2 queso."
+        precio: 9500
+      - nombre: "Tocineta"
+        descripcion: "Pan, salchicha americana, papa ripio, tres huevos de codorniz, tocineta doble, queso completo, cebolla asada."
+        precio: 11000
+      - nombre: "Especial"
+        descripcion: "Pan, salchicha americana, papa ripio, tres huevos de codorniz, tocineta, queso completo, cebolla asada, carne y pollo desmechado."
+        precio: 14500
+
+  - categoria: "Hamburguesas"
+    items:
+      - nombre: "Clásica"
+        descripcion: "Carne de res artesanal, pan, papa ripio, cebolla asada, 1/2 queso, 1/2 tocineta, tomate, lechuga, salsa de pepinillos."
+        precio: 9500
+      - nombre: "Tocineta"
+        descripcion: "Carne de res artesanal, pan, papa ripio, cebolla asada, queso completo, triple tocineta, tomate, lechuga, salsa de pepinillos."
+        precio: 14500
+      - nombre: "Doble carne"
+        descripcion: "Doble carne de res artesanal, pan, papa ripio, cebolla asada, queso completo, tocineta, tomate, lechuga, salsa de pepinillos."
+        precio: 16000
+      - nombre: "Desmechada"
+        descripcion: "Carne de res artesanal, pan, papa ripio, cebolla asada, queso completo, tocineta, tomate, lechuga, salsa de pepinillos, carne y pollo desmechado."
+        precio: 16000
+
+  - categoria: "Salchipapas"
+    items:
+      - nombre: "Clásica"
+        descripcion: "Papa, salchicha americana, dos huevos de codorniz."
+        precio: 8000
+      - nombre: "Queso"
+        descripcion: "Papa, salchicha americana, dos huevos de codorniz, queso."
+        precio: 10000
+      - nombre: "Especial"
+        descripcion: "Papa, salchicha americana, dos huevos de codorniz, queso, pollo y carne desmechada, maíz tierno."
+        precio: 16000

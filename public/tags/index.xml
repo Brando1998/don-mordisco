@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Don Mordisco</title>
+    <link>http://localhost:1313/tags/</link>
+    <description>Recent content in Tags on Don Mordisco</description>
+    <generator>Hugo</generator>
+    <language>es</language>
+    <lastBuildDate>Wed, 15 Feb 2023 10:00:00 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Comida-Callejera</title>
+      <link>http://localhost:1313/tags/comida-callejera/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/comida-callejera/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Papas</title>
+      <link>http://localhost:1313/tags/papas/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/papas/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Salchicha</title>
+      <link>http://localhost:1313/tags/salchicha/</link>
+      <pubDate>Wed, 15 Feb 2023 10:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/salchicha/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Carne</title>
+      <link>http://localhost:1313/tags/carne/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/carne/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hamburguesas</title>
+      <link>http://localhost:1313/tags/hamburguesas/</link>
+      <pubDate>Sun, 15 Jan 2023 09:00:00 -0700</pubDate>
+      <guid>http://localhost:1313/tags/hamburguesas/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
