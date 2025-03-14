@@ -57,6 +57,6 @@ function sendOrder() {
     });
 
     message += `%0A📝 *Notas:* ${notes}`;
-    let whatsappUrl = `https://wa.me/1234567890?text=${message}`;
+    let whatsappUrl = `https://wa.me/317283817?text=${message}`;
     window.open(whatsappUrl, "_blank");
 }
